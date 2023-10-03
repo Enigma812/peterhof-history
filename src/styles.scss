@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --white-background: #d3d3d3;
+    --main-yellow: #b9a46c;
+  }
+
+html, body { height: 100%; }
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background-color: var(--white-background);
+}
