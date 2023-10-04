@@ -1,8 +1,12 @@
 <section>
   <div>
     <mat-toolbar class="toolbar">
-      <span>{{ 'Toolbar' | translate }}</span>
-      <button mat-icon-button class="example-icon">
+      <div class="toolbar__title">
+        <div class="toolbat__logo"></div>
+        <span>{{ 'Toolbar' | translate }}</span>
+      </div>
+      <div class="toolbar__menu">
+              <button mat-icon-button class="example-icon">
         <mat-icon>menu</mat-icon>
       </button>
       <span class="example-spacer"></span>
@@ -12,6 +16,7 @@
       <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
         <mat-icon>share</mat-icon>
       </button>
+      </div>
     </mat-toolbar>
   </div>
 </section>
