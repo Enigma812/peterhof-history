@@ -10,29 +10,25 @@
             class="toolbar__title__logo-title__main-name"
             src="../assets/icon/logo-title.png"
           />
-          <div class="toolbar__title__logo-title__second-name">{{
-            "Toolbar" | translate
-          }}</div>
+          <div class="toolbar__title__logo-title__second-name">
+            {{"Toolbar" | translate}}</div>
         </div>
       </div>
       <div class="toolbar__title__menu">
-        <button mat-icon-button class="example-icon">
+        <button mat-icon-button [matMenuTriggerFor]="menu" class="example-icon dropdown">
           <mat-icon>menu</mat-icon>
         </button>
-        <span class="example-spacer"></span>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>
+            {{ "Menu.Peterhof" | translate }}
+          </button>
+          <button mat-menu-item>
+            {{ "Menu.Alexandria" | translate }}
+          </button>
+        </mat-menu>
         <button
-          mat-icon-button
-          class="example-icon favorite-icon"
-          aria-label="Example icon-button with heart icon"
-        >
-          <mat-icon>favorite</mat-icon>
-        </button>
-        <button
-          mat-icon-button
-          class="example-icon"
-          aria-label="Example icon-button with share icon"
-        >
-          <mat-icon>share</mat-icon>
+          mat-icon-button class="example-icon">
+          <mat-icon>account_circle</mat-icon>
         </button>
       </div>
     </mat-toolbar>
