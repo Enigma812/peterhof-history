@@ -1,39 +1,38 @@
-<section>
-  <div>
-    <mat-toolbar class="toolbar">
-      <div class="toolbar__title">
+<section class="app">
+  <mat-toolbar class="toolbar">
+    <div class="toolbar__title">
+      <img
+        class="toolbar__title__logo"
+        src="../assets/icon/logo.png"
+        alt="logo" />
+      <div class="toolbar__title__logo-title">
         <img
-          class="toolbar__title__logo"
-          src="../assets/icon/logo.png"
-          alt="logo"
-        />
-        <div class="toolbar__title__logo-title">
-          <img
-            class="toolbar__title__logo-title__main-name"
-            src="../assets/icon/logo-title.png"
-            alt="title"
-          />
-          <div class="toolbar__title__logo-title__second-name">
-            {{"Toolbar" | translate}}</div>
+          class="toolbar__title__logo-title__main-name"
+          src="../assets/icon/logo-title.png"
+          alt="title" />
+        <div class="toolbar__title__logo-title__second-name">
+          {{ 'Toolbar' | translate }}
         </div>
       </div>
-      <div class="toolbar__title__menu">
-        <button mat-icon-button [matMenuTriggerFor]="menu" class="example-icon dropdown">
-          <mat-icon>menu</mat-icon>
-        </button>
-        <mat-menu #menu="matMenu">
-          <button mat-menu-item>
-            {{ "Menu.Peterhof" | translate }}
-          </button>
-          <button mat-menu-item>
-            {{ "Menu.Alexandria" | translate }}
-          </button>
-        </mat-menu>
-        <button
-          mat-icon-button class="example-icon">
-          <mat-icon>account_circle</mat-icon>
-        </button>
-      </div>
-    </mat-toolbar>
-  </div>
+    </div>
+    <div class="toolbar__title__menu">
+      <button
+        class="example-icon dropdown"
+        (click)="openEnd(menu)"
+        mat-icon-button>
+        <mat-icon>menu</mat-icon>
+      </button>
+      <button
+        class="example-icon"
+        mat-icon-button>
+        <mat-icon>account_circle</mat-icon>
+      </button>
+    </div>
+  </mat-toolbar>
+
+  <ng-template
+    #menu
+    let-offcanvas>
+    <button class="nemu__button">c</button>
+  </ng-template>
 </section>
