@@ -16,7 +16,7 @@ export class AppComponent {
   public openEnd(content: TemplateRef<any>) {
     this.offcanvasService.open(content, {
       position: 'end',
-      panelClass: 'menu',
+      panelClass: 'menu-nav',
       backdropClass: 'menu-background',
       container: '.app'
     });

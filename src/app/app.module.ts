@@ -4,6 +4,7 @@ import localeRuExtra from '@angular/common/locales/extra/ru';
 import localeRu from '@angular/common/locales/ru';
 import { NgModule } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
+import { MatExpansionModule } from '@angular/material/expansion';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -26,6 +27,7 @@ import { TranslateLoaderFactory } from './translate-loader-factory';
     MatIconModule,
     MatButtonModule,
     MatMenuModule,
+    MatExpansionModule,
     HttpClientModule,
     NgbModule,
 

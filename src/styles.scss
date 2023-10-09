@@ -1,8 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
+@font-face {
+  font-family: Marmelad;
+  src: url("assets/fonts/Marmelad-Regular.ttf");
+}
+
 :root {
   --white-background: #d3d3d3;
   --main-yellow: #d8be74;
+  --gray: rgb(177 177 177);
+  --light-gray: rgb(221 221 221);
+  --black: black;
 }
 
 html, body { height: 100%; }

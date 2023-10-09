@@ -33,6 +33,44 @@
   <ng-template
     #menu
     let-offcanvas>
-    <button class="nemu__button">c</button>
+    <div class="menu">
+      <mat-accordion>
+        <mat-expansion-panel
+          class="mat-elevation-z0"
+          hideToggle>
+          <mat-expansion-panel-header class="button-menu">{{ 'Menu.Peterhof.Peterhof' | translate }} </mat-expansion-panel-header>
+          <button class="button-menu accordion-menu">
+            {{ 'Menu.Peterhof.Upper' | translate }}
+          </button>
+          <button class="button-menu accordion-menu">
+            {{ 'Menu.Peterhof.Palace' | translate }}
+          </button>
+          <button class="button-menu accordion-menu">
+            {{ 'Menu.Peterhof.Lower' | translate }}
+          </button>
+        </mat-expansion-panel>
+      </mat-accordion>
+      <button class="button-menu">
+        {{ 'Menu.Alexandria' | translate }}
+      </button>
+      <button class="button-menu">
+        {{ 'Menu.Colonial' | translate }}
+      </button>
+      <button class="button-menu">
+        {{ 'Menu.Meadow' | translate }}
+      </button>
+      <button class="button-menu">
+        {{ 'Menu.Alexandrian' | translate }}
+      </button>
+      <button class="button-menu">
+        {{ 'Menu.English' | translate }}
+      </button>
+      <button class="button-menu">
+        {{ 'Menu.Hare' | translate }}
+      </button>
+      <button class="button-menu">
+        {{ 'Menu.Self' | translate }}
+      </button>
+    </div>
   </ng-template>
 </section>
