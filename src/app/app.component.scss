@@ -82,6 +82,26 @@
 }
 
 
+@media (width <= 429px) {
+  :host {
+    ::ng-deep {
+      .menu-nav {
+        width: 200px !important;
+        margin-top: 56px;
+      }
+    }
+  }
+
+  .toolbar {
+    padding: 0 0 0 5px;
+  }
+
+  .button-menu {
+    font-size: 13px;
+  }
+}
+
+
 
 
 
