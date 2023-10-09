@@ -24,11 +24,13 @@
       </button>
       <button
         class="example-icon"
+        (click)="openEnd(account)"
         mat-icon-button>
         <mat-icon>account_circle</mat-icon>
       </button>
     </div>
   </mat-toolbar>
+  <router-outlet></router-outlet>
 
   <ng-template
     #menu
@@ -70,6 +72,22 @@
       </button>
       <button class="button-menu">
         {{ 'Menu.Self' | translate }}
+      </button>
+    </div>
+  </ng-template>
+
+  <ng-template
+    #account
+    let-offcanvas>
+    <div class="menu">
+      <button class="button-menu">
+        {{ 'Account.Login' | translate }}
+      </button>
+      <button class="button-menu">
+        {{ 'Account.LoginGoogle' | translate }}
+      </button>
+      <button class="button-menu">
+        {{ 'Account.Registr' | translate }}
       </button>
     </div>
   </ng-template>
