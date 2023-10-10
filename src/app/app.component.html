@@ -23,7 +23,13 @@
         <mat-icon>menu</mat-icon>
       </button>
       <button
-        class="example-icon"
+        class="example-icon dropdown button-icon"
+        routerLink="/"
+        mat-icon-button>
+        <mat-icon>home</mat-icon>
+      </button>
+      <button
+        class="example-icon button-icon"
         (click)="openEnd(account)"
         mat-icon-button>
         <mat-icon>account_circle</mat-icon>
@@ -52,7 +58,10 @@
           </button>
         </mat-expansion-panel>
       </mat-accordion>
-      <button class="button-menu">
+      <button
+        class="button-menu"
+        (click)="offcanvas.dismiss()"
+        routerLink="alexandria">
         {{ 'Menu.Alexandria' | translate }}
       </button>
       <button class="button-menu">
