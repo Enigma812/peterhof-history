@@ -4,7 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'welcome',
+    path: '',
+    pathMatch: 'full',
     loadChildren: () => import('../modules/welcome/welcome.module').then((m) => m.WelcomeModule)
   }
 ];
