@@ -1,1 +1,3 @@
-<p>alexandria works!</p>
+<div *ngIf="alexandria$ | async as alexandria">
+  <h2>{{ alexandria.title }}</h2>
+</div>
