@@ -1,0 +1,101 @@
+{
+  "configVersion": 1,
+  "timestamp": 1697807911761,
+  "index": "/peterhof-history/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/peterhof-history/116.8add9c07d6a7dc2b.js",
+        "/peterhof-history/823.96de52a6204d22fa.js",
+        "/peterhof-history/favicon.ico",
+        "/peterhof-history/index.html",
+        "/peterhof-history/main.3a286e68b8198235.js",
+        "/peterhof-history/manifest.webmanifest",
+        "/peterhof-history/polyfills.d7ff792d42a46ddc.js",
+        "/peterhof-history/runtime.e9749332b56b1f12.js",
+        "/peterhof-history/styles.e2d1df7f66d631e9.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/peterhof-history/Marmelad-Regular.c7d2c51c0680217f.ttf",
+        "/peterhof-history/assets/data/data.json",
+        "/peterhof-history/assets/fonts/Marmelad-Regular.ttf",
+        "/peterhof-history/assets/i18n/ru.json",
+        "/peterhof-history/assets/icon/logo-title.png",
+        "/peterhof-history/assets/icon/logo.png",
+        "/peterhof-history/assets/icons/icon-128x128.png",
+        "/peterhof-history/assets/icons/icon-144x144.png",
+        "/peterhof-history/assets/icons/icon-152x152.png",
+        "/peterhof-history/assets/icons/icon-192x192.png",
+        "/peterhof-history/assets/icons/icon-384x384.png",
+        "/peterhof-history/assets/icons/icon-512x512.png",
+        "/peterhof-history/assets/icons/icon-72x72.png",
+        "/peterhof-history/assets/icons/icon-96x96.png",
+        "/peterhof-history/assets/pic/main-field-mobile.png",
+        "/peterhof-history/assets/pic/main-field.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/peterhof-history/116.8add9c07d6a7dc2b.js": "49092994da32cc9ff6aae84ed6dfde71754d85ff",
+    "/peterhof-history/823.96de52a6204d22fa.js": "49d568c2a6e06c2fba3c46d3d10263719d39e8f4",
+    "/peterhof-history/Marmelad-Regular.c7d2c51c0680217f.ttf": "594ea5bb4d30437c6c063a725e9e739ba9dc8956",
+    "/peterhof-history/assets/data/data.json": "bf1260a1c0025ec3d1a5dc1e3d0890429143f1a7",
+    "/peterhof-history/assets/fonts/Marmelad-Regular.ttf": "594ea5bb4d30437c6c063a725e9e739ba9dc8956",
+    "/peterhof-history/assets/i18n/ru.json": "22d178ce60a7c385eac61d8a0a36a2bc2b780128",
+    "/peterhof-history/assets/icon/logo-title.png": "69f811c6b8481b0541c5dcb20bb9bc926763bfa5",
+    "/peterhof-history/assets/icon/logo.png": "e5381d573df61b666e9d63207c2405c083541002",
+    "/peterhof-history/assets/icons/icon-128x128.png": "88f426219512dc3a31c87d51b1db42b6b1618982",
+    "/peterhof-history/assets/icons/icon-144x144.png": "6bfa06dfe729f19fda3f0ef403241a25c3320273",
+    "/peterhof-history/assets/icons/icon-152x152.png": "c079106d3c0e2b230d32e27c232cd3d728c2935b",
+    "/peterhof-history/assets/icons/icon-192x192.png": "f83ac26b787734604e9b6cd90eb0a65c5161ee22",
+    "/peterhof-history/assets/icons/icon-384x384.png": "9b44377074c29803b3ad1de8d6cc8267f46e0060",
+    "/peterhof-history/assets/icons/icon-512x512.png": "2620c3785cd4e9e8913d0b8b647cd51f268f62d6",
+    "/peterhof-history/assets/icons/icon-72x72.png": "6e00a27dbb31382f713ad180769434b0f3ee41f3",
+    "/peterhof-history/assets/icons/icon-96x96.png": "c81570a5d617d9272e37ff173bc44519556d944b",
+    "/peterhof-history/assets/pic/main-field-mobile.png": "0eb7f904641ec10c67b4735e534fc36376c4c578",
+    "/peterhof-history/assets/pic/main-field.png": "c6c466e95aa404982180d5f9836a5879dee24d4e",
+    "/peterhof-history/favicon.ico": "390a7bd00ba3cef5d22e515cf3ca4d29da3610c3",
+    "/peterhof-history/index.html": "b097fad97c68134d75dd970e6f45a858b2332899",
+    "/peterhof-history/main.3a286e68b8198235.js": "a53d0c1baceb1a13bd46bcbeaacb8723addbee3d",
+    "/peterhof-history/manifest.webmanifest": "432a3b497fd4c386f2cad5eef9dec1bcea7384f5",
+    "/peterhof-history/polyfills.d7ff792d42a46ddc.js": "e63b8b303316e31fe320346f21341842a2a0b67c",
+    "/peterhof-history/runtime.e9749332b56b1f12.js": "bd5b3b9cc47ad7ca6224916ac5ab525ca148c985",
+    "/peterhof-history/styles.e2d1df7f66d631e9.css": "9db4e3c75be14ae7365981d3ea4f6583b31d994b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
