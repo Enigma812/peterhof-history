@@ -1,6 +1,11 @@
 <div *ngIf="alexandria$ | async as alexandria">
   <h2>{{ alexandria.title }}</h2>
+  <div *ngIf="alexandriaPlaces$ | async as places">
+    <div *ngFor="let place of places; trackBy: trackById">
+      <button [routerLink]="place.path">
+        {{ place.title }}
+      </button>
+    </div>
+  </div>
 </div>
-<button routerLink="choise">Коттедж</button>
-<button routerLink="choise">Капелла</button>
 <router-outlet></router-outlet>

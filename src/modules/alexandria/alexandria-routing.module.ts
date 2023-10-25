@@ -4,9 +4,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { AlexandriaComponent } from './alexandria-page/alexandria.component';
 
 const routes: Routes = [
-  { path: '', component: AlexandriaComponent },
   {
-    path: 'choise',
+    path: '',
+    pathMatch: 'full',
+    component: AlexandriaComponent
+  },
+  {
+    path: ':choisePath',
     // eslint-disable-next-line @typescript-eslint/promise-function-async
     loadChildren: () => import('../choise/choise.module').then((m) => m.ChoiseModule)
   }
