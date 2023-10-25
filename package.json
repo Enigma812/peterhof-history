@@ -23,6 +23,7 @@
     "@angular/platform-browser": "16.2.8",
     "@angular/platform-browser-dynamic": "16.2.8",
     "@angular/router": "16.2.8",
+    "@angular/service-worker": "16.2.8",
     "@messageformat/core": "3.2.0",
     "@ng-bootstrap/ng-bootstrap": "15.1.1",
     "@ngx-translate/core": "15.0.0",
