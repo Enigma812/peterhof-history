@@ -1,7 +1,7 @@
 {
   "name": "Петергоф сквозь время",
   "short_name": "Peterhof History",
-  "theme_color": "#d8be74",
+  "theme_color": "#770000",
   "background_color": "#770000",
   "display": "standalone",
   "scope": "./",
