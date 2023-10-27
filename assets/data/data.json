@@ -1,7 +1,43 @@
 {
-    "alexandria": {
-        "id": "alexandria",
-        "title": "Александрия",
-        "path": "alexandria"
-    }
+  "alexandria": {
+    "id": "alexandria",
+    "title": "Александрия",
+    "path": "alexandria",
+    "img": "",
+    "imgMobile": "",
+    "alexandriaPlaces": [
+      {
+        "id": "cottage",
+        "path": "cottage",
+        "title": "Коттедж",
+        "img": "",
+        "imgMobile": "",
+        "begin": "Начать тур"
+      },
+      {
+        "id": "lower",
+        "path": "lower",
+        "title": "Нижнаяя Дача",
+        "img": "",
+        "imgMobile": "",
+        "begin": "Начать тур"
+      },
+      {
+        "id": "farm",
+        "path": "farm",
+        "title": "Фермерский Дворец",
+        "img": "",
+        "imgMobile": "",
+        "begin": "Начать тур"
+      },
+      {
+        "id": "capelle",
+        "path": "capelle",
+        "title": "Готическая Капелла",
+        "img": "",
+        "imgMobile": "",
+        "begin": "Начать тур"
+      }
+    ]
+  }
 }

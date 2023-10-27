@@ -1,8 +1,8 @@
 {
-  "name": "peterhof-history",
-  "short_name": "peterhof-history",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "name": "Петергоф сквозь время",
+  "short_name": "Peterhof History",
+  "theme_color": "#d8be74",
+  "background_color": "#770000",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
