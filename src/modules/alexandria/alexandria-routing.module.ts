@@ -10,9 +10,15 @@ const routes: Routes = [
     component: AlexandriaComponent
   },
   {
-    path: ':choisePath',
-    // eslint-disable-next-line @typescript-eslint/promise-function-async
-    loadChildren: () => import('../choise/choise.module').then((m) => m.ChoiseModule)
+    path: '',
+    component: AlexandriaComponent,
+    children: [
+      {
+        path: ':choisePath',
+        // eslint-disable-next-line @typescript-eslint/promise-function-async
+        loadChildren: () => import('../choise/choise.module').then((m) => m.ChoiseModule)
+      }
+    ]
   }
 ];
 
