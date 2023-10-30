@@ -1,4 +1,5 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable, map } from 'rxjs';
 import { DataService } from 'src/app/data.service';
 import { Alexandria } from 'src/app/models/alexandria';
@@ -16,10 +17,7 @@ export class AlexandriaComponent {
   public alexandriaPlaces$: Observable<AlexandriaPlace[]>;
   public trackById = trackBy('id');
 
-  constructor(
-    // private readonly _route: ActivatedRoute,
-    private readonly _dataService: DataService
-  ) {
+  constructor(private readonly _router: Router, private readonly _dataService: DataService) {
     this.alexandria$ = this._dataService.data$.pipe(map((data) => data.alexandria));
     // this.alexandriaPlaces$ = this._route.params.pipe(
     //   map((params) => params['alexandriaPlacePath']),
@@ -30,4 +28,13 @@ export class AlexandriaComponent {
     this.alexandriaPlaces$ = this.alexandria$.pipe(map((place) => place.alexandriaPlaces ?? []));
   }
 
+  public startPicture(): boolean {
+    if (
+      this._router.url === '/alexandria'
+      // this.alexandria$.pipe(map((data) => data.path))
+    ) {
+      return true;
+    }
+    return false;
+  }
 }

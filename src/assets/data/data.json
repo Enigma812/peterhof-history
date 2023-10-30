@@ -12,7 +12,14 @@
         "title": "Коттедж",
         "img": "",
         "imgMobile": "",
-        "begin": "Начать тур"
+        "begin": "Начать тур",
+        "alexndriaTour": [
+          {
+            "id": "cottage-tour",
+            "path": "cottage-tour",
+            "title": "Коттедж"
+          }
+        ]
       },
       {
         "id": "lower",

@@ -1,3 +1,5 @@
+import { AlexandriaTour } from './alexandriaTour';
+
 export interface AlexandriaPlace {
   id: string;
   path: string;
@@ -5,4 +7,5 @@ export interface AlexandriaPlace {
   img: string;
   imgMobile: string;
   begin: string;
+  alexandriaTour: AlexandriaTour[];
 }
