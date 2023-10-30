@@ -16,7 +16,7 @@ const routes: Routes = [
       {
         path: ':choisePath',
         // eslint-disable-next-line @typescript-eslint/promise-function-async
-        loadChildren: () => import('../choise/choise.module').then((m) => m.ChoiseModule)
+        loadChildren: () => import('../alexandriaChoice/alexandriaChoice.module').then((m) => m.ChoiseModule)
       }
     ]
   }

@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ChoiseComponent } from './choise.component';
+import { ChoiseComponent } from './alexandriaChoice.component';
 
 describe('ChoiseComponent', () => {
   let component: ChoiseComponent;

@@ -1,6 +1,5 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { Observable, map, switchMap } from 'rxjs';
+import { Observable, map } from 'rxjs';
 import { DataService } from 'src/app/data.service';
 import { Alexandria } from 'src/app/models/alexandria';
 import { AlexandriaPlace } from 'src/app/models/alexandriaPlace';
