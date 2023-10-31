@@ -1,2 +1,6 @@
-<p>choise works!</p>
-<button></button>
+<div *ngIf="alexandriaPlace$ | async as alexandriaPlace">
+  <p>{{ alexandriaPlace.title }}</p>
+  <div *ngIf="selectedPlace$ | async as selectedPlace">
+    <button [routerLink]="selectedPlace.path">sdddd</button>
+  </div>
+</div>

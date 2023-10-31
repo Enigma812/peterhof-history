@@ -1,4 +1,10 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Observable, map, switchMap } from 'rxjs';
+import { DataService } from 'src/app/data.service';
+import { AlexandriaPlace } from 'src/app/models/alexandriaPlace';
+import { AlexandriaTour } from 'src/app/models/alexandriaTour';
+import { trackBy } from 'src/modules/utils/track-by';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -7,4 +13,25 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
   styleUrls: [ './alexandriaChoice.component.scss' ]
 })
 export class AlexandriaChoiceComponent {
+  public alexandriaPlace$: Observable<AlexandriaPlace | undefined>;
+  public selectedPlace$: Observable<AlexandriaTour | undefined>;
+  public trackById = trackBy('id');
+
+  constructor(
+    private readonly _route: ActivatedRoute,
+    private readonly _dataService: DataService
+  ) {
+    this.alexandriaPlace$ = this._route.params.pipe(
+      map((params) => params['choicePath']),
+      switchMap((choicePath) =>
+        this._dataService.alexandriaPlaces$.pipe(map((places) => places.find((place) => place.path === choicePath))))
+    );
+
+    this.selectedPlace$ = this._route.params.pipe(
+      map((params) => params['choicePath']),
+      switchMap((choicePath) =>
+        this._dataService.alexandriaPlaces$.pipe(map((places) => places.find((place) => place.path === choicePath)))),
+      map((place) => place?.alexandriaTour.find((tour) => tour.path))
+    );
+  }
 }

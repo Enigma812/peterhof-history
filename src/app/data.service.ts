@@ -1,8 +1,10 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
-import { Observable, ReplaySubject, Subject } from 'rxjs';
+import { Observable, ReplaySubject, Subject, map } from 'rxjs';
 
+import { Alexandria } from './models/alexandria';
+import { AlexandriaPlace } from './models/alexandriaPlace';
 import { Data } from './models/data';
 
 @Injectable({
@@ -10,6 +12,8 @@ import { Data } from './models/data';
 })
 export class DataService {
   public data$: Observable<Data>;
+  public alexandria$: Observable<Alexandria>;
+  public alexandriaPlaces$: Observable<AlexandriaPlace[]>;
   private readonly _dataSubject: Subject<Data>;
 
   constructor(
@@ -17,6 +21,8 @@ export class DataService {
   ) {
     this._dataSubject = new ReplaySubject<Data>();
     this.data$ = this._dataSubject.asObservable();
+    this.alexandria$ = this.data$.pipe(map((data) => data.alexandria));
+    this.alexandriaPlaces$ = this.alexandria$.pipe(map((place) => place.alexandriaPlaces ?? []));
     this.fetchData();
   }
 

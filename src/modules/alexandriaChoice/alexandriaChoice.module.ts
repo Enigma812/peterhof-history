@@ -13,4 +13,4 @@ import { AlexandriaChoiceRoutingModule } from './alexandriaChoice-routing.module
     AlexandriaChoiceRoutingModule
   ]
 })
-export class ChoiseModule { }
+export class ChoiceModule { }

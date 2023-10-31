@@ -17,15 +17,12 @@ export class AlexandriaComponent {
   public alexandriaPlaces$: Observable<AlexandriaPlace[]>;
   public trackById = trackBy('id');
 
-  constructor(private readonly _router: Router, private readonly _dataService: DataService) {
-    this.alexandria$ = this._dataService.data$.pipe(map((data) => data.alexandria));
-    // this.alexandriaPlaces$ = this._route.params.pipe(
-    //   map((params) => params['alexandriaPlacePath']),
-    //   switchMap(([ alexandriaPlacePath ]) => this._dataService.data$.pipe(
-    //     map((data) => data.alexandria.alexandriaPlaces.find(place) => )
-    //   ))
-    // );
-    this.alexandriaPlaces$ = this.alexandria$.pipe(map((place) => place.alexandriaPlaces ?? []));
+  constructor(
+    private readonly _router: Router,
+    private readonly _dataService: DataService
+  ) {
+    this.alexandria$ = this._dataService.alexandria$;
+    this.alexandriaPlaces$ = this._dataService.alexandriaPlaces$;
   }
 
   public startPicture(): boolean {
