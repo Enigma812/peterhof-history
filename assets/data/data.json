@@ -12,7 +12,12 @@
         "title": "Коттедж",
         "img": "",
         "imgMobile": "",
-        "begin": "Начать тур"
+        "begin": "Начать тур",
+        "alexandriaTour": {
+          "id": "cottage-tour",
+          "path": "tour",
+          "title": "Коттедж"
+        }
       },
       {
         "id": "lower",
@@ -20,7 +25,12 @@
         "title": "Нижнаяя Дача",
         "img": "",
         "imgMobile": "",
-        "begin": "Начать тур"
+        "begin": "Начать тур",
+        "alexandriaTour": {
+          "id": "lower-tour",
+          "path": "tour",
+          "title": "Нижняя Дача"
+        }
       },
       {
         "id": "farm",
@@ -28,7 +38,12 @@
         "title": "Фермерский Дворец",
         "img": "",
         "imgMobile": "",
-        "begin": "Начать тур"
+        "begin": "Начать тур",
+        "alexandriaTour": {
+          "id": "farm-tour",
+          "path": "tour",
+          "title": "Фермерский Дворец"
+        }
       },
       {
         "id": "capelle",
@@ -36,7 +51,12 @@
         "title": "Готическая Капелла",
         "img": "",
         "imgMobile": "",
-        "begin": "Начать тур"
+        "begin": "Начать тур",
+        "alexandriaTour": {
+          "id": "capelle-tour",
+          "path": "tour",
+          "title": "Готическая Капелла"
+        }
       }
     ]
   }
