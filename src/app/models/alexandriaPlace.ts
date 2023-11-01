@@ -7,5 +7,5 @@ export interface AlexandriaPlace {
   img: string;
   imgMobile: string;
   begin: string;
-  alexandriaTour: AlexandriaTour[];
+  alexandriaTour: AlexandriaTour;
 }

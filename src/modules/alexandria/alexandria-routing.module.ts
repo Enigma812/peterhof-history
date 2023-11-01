@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/promise-function-async */
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -15,10 +16,13 @@ const routes: Routes = [
     children: [
       {
         path: ':choicePath',
-        // eslint-disable-next-line @typescript-eslint/promise-function-async
         loadChildren: () => import('../alexandriaChoice/alexandriaChoice.module').then((m) => m.ChoiceModule)
       }
     ]
+  },
+  {
+    path: ':choicePath/:tourPath',
+    loadChildren: () => import('../alexandriaTour/alexandriaTour.module').then((m) => m.AlexandriaTourModule)
   }
 ];
 

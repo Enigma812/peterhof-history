@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ChoiseComponent } from './alexandriaChoice.component';
+import { AlexandriaChoiceComponent } from './alexandriaChoice.component';
 
 describe('ChoiseComponent', () => {
-  let component: ChoiseComponent;
-  let fixture: ComponentFixture<ChoiseComponent>;
+  let component: AlexandriaChoiceComponent;
+  let fixture: ComponentFixture<AlexandriaChoiceComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ ChoiseComponent ]
+      declarations: [ AlexandriaChoiceComponent ]
     });
-    fixture = TestBed.createComponent(ChoiseComponent);
+    fixture = TestBed.createComponent(AlexandriaChoiceComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

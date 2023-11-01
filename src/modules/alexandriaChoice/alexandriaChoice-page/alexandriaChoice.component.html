@@ -1,6 +1,6 @@
 <div *ngIf="alexandriaPlace$ | async as alexandriaPlace">
   <p>{{ alexandriaPlace.title }}</p>
-  <div *ngIf="selectedPlace$ | async as selectedPlace">
-    <button [routerLink]="selectedPlace.path">sdddd</button>
+  <div>
+    <button [routerLink]="alexandriaPlace.alexandriaTour.path">{{ alexandriaPlace.begin }}</button>
   </div>
 </div>
