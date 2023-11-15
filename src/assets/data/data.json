@@ -22,9 +22,9 @@
       {
         "id": "cottage",
         "path": "cottage",
-        "title": "Коттедж",
-        "img": "",
-        "imgMobile": "",
+        "title": "Дворец Коттедж",
+        "img": "assets/pic/alexandria/cottage-field.webp",
+        "imgMobile": "assets/pic/alexandria/cottage-field-mobile.webp",
         "begin": "Начать тур",
         "alexandriaTour": {
           "id": "cottage-tour",
@@ -36,8 +36,8 @@
         "id": "lower",
         "path": "lower",
         "title": "Нижнаяя Дача",
-        "img": "",
-        "imgMobile": "",
+        "img": "assets/pic/alexandria/lower-field.webp",
+        "imgMobile": "assets/pic/alexandria/lower-field-mobile.webp",
         "begin": "Начать тур",
         "alexandriaTour": {
           "id": "lower-tour",

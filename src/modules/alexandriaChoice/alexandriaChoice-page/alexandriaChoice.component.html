@@ -1,6 +1,18 @@
 @if (alexandriaPlace$ | async; as alexandriaPlace) {
-<p>{{ alexandriaPlace.title }}</p>
-<div>
-  <button [routerLink]="alexandriaPlace.alexandriaTour.path">{{ alexandriaPlace.begin }}</button>
+<div class="title">{{ alexandriaPlace.title }}</div>
+<div class="field">
+  <img
+    class="field__img"
+    [src]="alexandriaPlace.img"
+    alt="picture" />
+  <img
+    class="field__img-mobile"
+    [src]="alexandriaPlace.imgMobile"
+    alt="picture" />
 </div>
+<button
+  class="button"
+  [routerLink]="alexandriaPlace.alexandriaTour.path">
+  {{ alexandriaPlace.begin }}
+</button>
 }
