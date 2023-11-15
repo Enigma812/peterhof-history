@@ -47,6 +47,47 @@
     height: 100%;
 
     &__img {
+        display: block;
         width: 70%;
+    }
+
+    &__img-mobile {
+        display: none;
+    }
+}
+
+
+@media (width <= 429px) {
+    .toolbar {
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        background-color: var(--light-gray);
+
+
+        &__buttons {
+            width: max-content;
+
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+
+    .title {
+        top: 160px; 
+        left: 50px;
+    
+        font-size: 30px;
+    }
+
+    .field {
+        &__img {
+            display: none;
+        }
+
+        &__img-mobile {
+            display: block;
+            width: 100%;
+        }
     }
 }
