@@ -7,6 +7,19 @@
     "imgMobile": "",
     "alexandriaPlaces": [
       {
+        "id": "park",
+        "path": "park",
+        "title": "Парк",
+        "img": "",
+        "imgMobile": "",
+        "begin": "Начать тур",
+        "alexandriaTour": {
+          "id": "park-tour",
+          "path": "tour",
+          "title": "Парк"
+        }
+      },
+      {
         "id": "cottage",
         "path": "cottage",
         "title": "Коттедж",

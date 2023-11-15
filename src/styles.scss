@@ -5,11 +5,20 @@
   src: url("assets/fonts/Marmelad-Regular.ttf");
 }
 
+
+@font-face {
+  font-family: Pacifico;
+  src: url("assets/fonts/Pacifico-Regular.ttf");
+}
+
+
+
 :root {
   --white-background: #d3d3d3;
   --main-yellow: #d8be74;
-  --gray: rgb(177 177 177);
   --light-gray: rgb(221 221 221);
+  --gray: rgb(177 177 177);
+  --dark-gray: rgb(82 82 82);
   --black: black;
 }
 

@@ -1,6 +1,6 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { Router } from '@angular/router';
-import { Observable, map } from 'rxjs';
+import { Observable } from 'rxjs';
 import { DataService } from 'src/app/data.service';
 import { Alexandria } from 'src/app/models/alexandria';
 import { AlexandriaPlace } from 'src/app/models/alexandriaPlace';
@@ -28,7 +28,7 @@ export class AlexandriaComponent {
   public startPicture(): boolean {
     if (
       this._router.url === '/alexandria'
-      // this.alexandria$.pipe(map((data) => data.path))
+    // this.alexandria$.pipe(map((data) => data.path))
     ) {
       return true;
     }
