@@ -7,19 +7,6 @@
     "imgMobile": "",
     "alexandriaPlaces": [
       {
-        "id": "park",
-        "path": "park",
-        "title": "Парк",
-        "img": "",
-        "imgMobile": "",
-        "begin": "Начать тур",
-        "alexandriaTour": {
-          "id": "park-tour",
-          "path": "tour",
-          "title": "Парк"
-        }
-      },
-      {
         "id": "cottage",
         "path": "cottage",
         "title": "Дворец Коттедж",
@@ -49,8 +36,8 @@
         "id": "farm",
         "path": "farm",
         "title": "Фермерский Дворец",
-        "img": "",
-        "imgMobile": "",
+        "img": "assets/pic/alexandria/farm-field.webp",
+        "imgMobile": "assets/pic/alexandria/farm-field-mobile.webp",
         "begin": "Начать тур",
         "alexandriaTour": {
           "id": "farm-tour",
@@ -62,13 +49,26 @@
         "id": "capelle",
         "path": "capelle",
         "title": "Готическая Капелла",
-        "img": "",
-        "imgMobile": "",
+        "img": "assets/pic/alexandria/capelle-field.webp",
+        "imgMobile": "assets/pic/alexandria/capelle-field-mobile.webp",
         "begin": "Начать тур",
         "alexandriaTour": {
           "id": "capelle-tour",
           "path": "tour",
           "title": "Готическая Капелла"
+        }
+      },
+      {
+        "id": "park",
+        "path": "park",
+        "title": "Парк",
+        "img": "assets/pic/alexandria/park-field.webp",
+        "imgMobile": "assets/pic/alexandria/park-field-mobile.webp",
+        "begin": "Начать тур",
+        "alexandriaTour": {
+          "id": "park-tour",
+          "path": "tour",
+          "title": "Парк"
         }
       }
     ]
