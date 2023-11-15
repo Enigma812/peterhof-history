@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1699877929971,
+  "timestamp": 1700073633812,
   "index": "/peterhof-history/index.html",
   "assetGroups": [
     {
@@ -12,16 +12,16 @@
       },
       "urls": [
         "/peterhof-history/237.efa90a80bc86654d.js",
-        "/peterhof-history/301.b81c02593563661b.js",
-        "/peterhof-history/420.3ece38a7c5c955c9.js",
-        "/peterhof-history/823.cbb950d2decdb06a.js",
+        "/peterhof-history/301.3661de355147ccb8.js",
+        "/peterhof-history/420.698b0505a966da56.js",
+        "/peterhof-history/823.66945da3dfbc5c91.js",
         "/peterhof-history/favicon.ico",
         "/peterhof-history/index.html",
-        "/peterhof-history/main.553224180a7a69d2.js",
+        "/peterhof-history/main.e24249c7f579d6b9.js",
         "/peterhof-history/manifest.webmanifest",
         "/peterhof-history/polyfills.3c45fa2e70635c6c.js",
-        "/peterhof-history/runtime.82bc70bdb8801104.js",
-        "/peterhof-history/styles.e2d1df7f66d631e9.css"
+        "/peterhof-history/runtime.2da065916a73f5b0.js",
+        "/peterhof-history/styles.bee67a1b271b608d.css"
       ],
       "patterns": []
     },
@@ -34,8 +34,10 @@
       },
       "urls": [
         "/peterhof-history/Marmelad-Regular.c7d2c51c0680217f.ttf",
+        "/peterhof-history/Pacifico-Regular.f84675713043186b.ttf",
         "/peterhof-history/assets/data/data.json",
         "/peterhof-history/assets/fonts/Marmelad-Regular.ttf",
+        "/peterhof-history/assets/fonts/Pacifico-Regular.ttf",
         "/peterhof-history/assets/i18n/ru.json",
         "/peterhof-history/assets/icon/logo-title.png",
         "/peterhof-history/assets/icon/logo.png",
@@ -47,8 +49,20 @@
         "/peterhof-history/assets/icons/icon-512x512.png",
         "/peterhof-history/assets/icons/icon-72x72.png",
         "/peterhof-history/assets/icons/icon-96x96.png",
-        "/peterhof-history/assets/pic/main-field-mobile.png",
-        "/peterhof-history/assets/pic/main-field.png"
+        "/peterhof-history/assets/pic/alexandria/alexandria-field-mobile.webp",
+        "/peterhof-history/assets/pic/alexandria/alexandria-field.webp",
+        "/peterhof-history/assets/pic/alexandria/capelle-field-mobile.webp",
+        "/peterhof-history/assets/pic/alexandria/capelle-field.webp",
+        "/peterhof-history/assets/pic/alexandria/cottage-field-mobile.webp",
+        "/peterhof-history/assets/pic/alexandria/cottage-field.webp",
+        "/peterhof-history/assets/pic/alexandria/farm-field-mobile.webp",
+        "/peterhof-history/assets/pic/alexandria/farm-field.webp",
+        "/peterhof-history/assets/pic/alexandria/lower-field-mobile.webp",
+        "/peterhof-history/assets/pic/alexandria/lower-field.webp",
+        "/peterhof-history/assets/pic/alexandria/park-field-mobile.webp",
+        "/peterhof-history/assets/pic/alexandria/park-field.webp",
+        "/peterhof-history/assets/pic/main-field-mobile.webp",
+        "/peterhof-history/assets/pic/main-field.webp"
       ],
       "patterns": []
     }
@@ -56,12 +70,14 @@
   "dataGroups": [],
   "hashTable": {
     "/peterhof-history/237.efa90a80bc86654d.js": "c55882abcebe3fc3a8c3eb46dda96baf77e73fba",
-    "/peterhof-history/301.b81c02593563661b.js": "88f2a3e3d14b1ffd22742d1639194b4a94e480a0",
-    "/peterhof-history/420.3ece38a7c5c955c9.js": "14ec6ffaa9ccd578590970fb31526ea09e37553e",
-    "/peterhof-history/823.cbb950d2decdb06a.js": "13e7c903e51dda0d0bb07dccf5b4bd6362539f52",
+    "/peterhof-history/301.3661de355147ccb8.js": "025bc90a6c58e28135163683551905406799a4b7",
+    "/peterhof-history/420.698b0505a966da56.js": "f934594d10713006e5328200f83fcd8a974f12ec",
+    "/peterhof-history/823.66945da3dfbc5c91.js": "ab6ad8a17dbaef362fbab4a1f3d026aac2b01b80",
     "/peterhof-history/Marmelad-Regular.c7d2c51c0680217f.ttf": "594ea5bb4d30437c6c063a725e9e739ba9dc8956",
-    "/peterhof-history/assets/data/data.json": "d0e70b6891b4abfe2a5bf0870d66d5d1792542c7",
+    "/peterhof-history/Pacifico-Regular.f84675713043186b.ttf": "baca1fca7fe74b61cb33aa0da48ec1a3a77bcf49",
+    "/peterhof-history/assets/data/data.json": "bc09493be2d7ac6918b8683cabea42a8784355f4",
     "/peterhof-history/assets/fonts/Marmelad-Regular.ttf": "594ea5bb4d30437c6c063a725e9e739ba9dc8956",
+    "/peterhof-history/assets/fonts/Pacifico-Regular.ttf": "baca1fca7fe74b61cb33aa0da48ec1a3a77bcf49",
     "/peterhof-history/assets/i18n/ru.json": "22d178ce60a7c385eac61d8a0a36a2bc2b780128",
     "/peterhof-history/assets/icon/logo-title.png": "69f811c6b8481b0541c5dcb20bb9bc926763bfa5",
     "/peterhof-history/assets/icon/logo.png": "e5381d573df61b666e9d63207c2405c083541002",
@@ -73,15 +89,27 @@
     "/peterhof-history/assets/icons/icon-512x512.png": "2620c3785cd4e9e8913d0b8b647cd51f268f62d6",
     "/peterhof-history/assets/icons/icon-72x72.png": "6e00a27dbb31382f713ad180769434b0f3ee41f3",
     "/peterhof-history/assets/icons/icon-96x96.png": "c81570a5d617d9272e37ff173bc44519556d944b",
-    "/peterhof-history/assets/pic/main-field-mobile.png": "0eb7f904641ec10c67b4735e534fc36376c4c578",
-    "/peterhof-history/assets/pic/main-field.png": "c6c466e95aa404982180d5f9836a5879dee24d4e",
+    "/peterhof-history/assets/pic/alexandria/alexandria-field-mobile.webp": "074594a072ec3fa151b7ee537a74ee709c918285",
+    "/peterhof-history/assets/pic/alexandria/alexandria-field.webp": "3e68277b39c43c12a08a0daea22f4438cde98aae",
+    "/peterhof-history/assets/pic/alexandria/capelle-field-mobile.webp": "018122f4c59087291350ebe14884cc0e18b3e141",
+    "/peterhof-history/assets/pic/alexandria/capelle-field.webp": "94f1e963aa23a568d935d1d1f49f9b0d0f45e884",
+    "/peterhof-history/assets/pic/alexandria/cottage-field-mobile.webp": "29581c124c82011f15c42fd457d9604fafb2808a",
+    "/peterhof-history/assets/pic/alexandria/cottage-field.webp": "789dc2bbd94a4abd280e94432483602baefe1f09",
+    "/peterhof-history/assets/pic/alexandria/farm-field-mobile.webp": "7f47f28f8be985bd620ee1596735113f071cefe4",
+    "/peterhof-history/assets/pic/alexandria/farm-field.webp": "44e517adae324cc60bbddb04499e1766f23ca496",
+    "/peterhof-history/assets/pic/alexandria/lower-field-mobile.webp": "9adf904e799a0663502255b4a1aff4ea875eddac",
+    "/peterhof-history/assets/pic/alexandria/lower-field.webp": "17f21742c36774f883c45c53232285e019cf4fcc",
+    "/peterhof-history/assets/pic/alexandria/park-field-mobile.webp": "72611fe1361d15286c00413df74c1e26eeaeaf1b",
+    "/peterhof-history/assets/pic/alexandria/park-field.webp": "8fb09166c2c5d48a28eaf6afffda1ed8217010c8",
+    "/peterhof-history/assets/pic/main-field-mobile.webp": "66d45300737cb80632398a49b5816c98511a766e",
+    "/peterhof-history/assets/pic/main-field.webp": "972fd66c3a2270640a6bc6e8fd2e593062f2e455",
     "/peterhof-history/favicon.ico": "390a7bd00ba3cef5d22e515cf3ca4d29da3610c3",
-    "/peterhof-history/index.html": "98f35f471e008dfa3808bc38c2c72252fbaab244",
-    "/peterhof-history/main.553224180a7a69d2.js": "fb3dd4186b6fee020ed8f856c097c3d861fe83c3",
+    "/peterhof-history/index.html": "36443ba769a7851b76ba59909d07ea80d2001425",
+    "/peterhof-history/main.e24249c7f579d6b9.js": "f4bc027f8154efb09e540625ce42853ac5ff08c1",
     "/peterhof-history/manifest.webmanifest": "3905fc8314db9a9c5691f88691cf910459826fb6",
     "/peterhof-history/polyfills.3c45fa2e70635c6c.js": "dc6c896c3c698c3fc34daa0bbc30dcc26fdbaf3f",
-    "/peterhof-history/runtime.82bc70bdb8801104.js": "0be9f0f9e78a5cd642ae08072751b4bce30cd027",
-    "/peterhof-history/styles.e2d1df7f66d631e9.css": "9db4e3c75be14ae7365981d3ea4f6583b31d994b"
+    "/peterhof-history/runtime.2da065916a73f5b0.js": "681a4fc34ae21b071a6375ac8b30ccf9622a3f15",
+    "/peterhof-history/styles.bee67a1b271b608d.css": "fc14963a734831c781c10621ecbf957391e1df14"
   },
   "navigationUrls": [
     {
