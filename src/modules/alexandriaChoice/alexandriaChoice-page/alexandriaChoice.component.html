@@ -1,6 +1,6 @@
-<div *ngIf="alexandriaPlace$ | async as alexandriaPlace">
-  <p>{{ alexandriaPlace.title }}</p>
-  <div>
-    <button [routerLink]="alexandriaPlace.alexandriaTour.path">{{ alexandriaPlace.begin }}</button>
-  </div>
+@if (alexandriaPlace$ | async; as alexandriaPlace) {
+<p>{{ alexandriaPlace.title }}</p>
+<div>
+  <button [routerLink]="alexandriaPlace.alexandriaTour.path">{{ alexandriaPlace.begin }}</button>
 </div>
+}

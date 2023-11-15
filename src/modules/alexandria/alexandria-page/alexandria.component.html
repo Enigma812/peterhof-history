@@ -1,12 +1,10 @@
-<div *ngIf="alexandria$ | async as alexandria">
-  <h2>{{ alexandria.title }}</h2>
-  <div *ngIf="alexandriaPlaces$ | async as places">
-    <div *ngFor="let place of places; trackBy: trackById">
-      <button [routerLink]="place.path">
-        {{ place.title }}
-      </button>
-    </div>
-  </div>
-  <div *ngIf="startPicture()">картинка</div>
-</div>
+@if (alexandria$ | async; as alexandria) {
+<h2>{{ alexandria.title }}</h2>
+@if (alexandriaPlaces$ | async; as places) { @for (place of places; track place.id) {
+<button [routerLink]="place.path">
+  {{ place.title }}
+</button>
+} }
+<div *ngIf="startPicture()">картинка</div>
+}
 <router-outlet></router-outlet>
