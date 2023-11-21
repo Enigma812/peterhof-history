@@ -19,10 +19,6 @@ const routes: Routes = [
         loadChildren: () => import('../alexandriaChoice/alexandriaChoice.module').then((m) => m.ChoiceModule)
       }
     ]
-  },
-  {
-    path: ':choicePath/:tourPath',
-    loadChildren: () => import('../alexandriaTour/alexandriaTour.module').then((m) => m.AlexandriaTourModule)
   }
 ];
 
