@@ -31,7 +31,7 @@
 
 .title {
     position: absolute;
-    top: 200px; 
+    top: 200px;
     left: 350px;
 
     color: var(--dark-gray);
@@ -66,6 +66,7 @@
 
 
         &__buttons {
+          flex-grow: 1;
             width: max-content;
 
             font-size: 12px;
@@ -74,9 +75,9 @@
     }
 
     .title {
-        top: 160px; 
+        top: 160px;
         left: 50px;
-    
+
         font-size: 30px;
     }
 
