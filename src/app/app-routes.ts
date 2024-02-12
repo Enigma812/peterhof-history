@@ -2,7 +2,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [
+export const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
@@ -13,9 +13,3 @@ const routes: Routes = [
     loadChildren: () => import('../modules/alexandria/alexandria.routes').then((m) => m.routes)
   }
 ];
-
-@NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
-  exports: [ RouterModule ]
-})
-export class AppRoutingModule {}
