@@ -5,12 +5,10 @@ import { AlexandriaComponent } from './alexandria-page/alexandria.component';
 import { AlexandriaRoutingModule } from './alexandria-routing.module';
 
 @NgModule({
-  declarations: [
-    AlexandriaComponent
-  ],
   imports: [
     CommonModule,
-    AlexandriaRoutingModule
+    AlexandriaRoutingModule,
+    AlexandriaComponent
   ]
 })
 export class AlexandriaModule { }

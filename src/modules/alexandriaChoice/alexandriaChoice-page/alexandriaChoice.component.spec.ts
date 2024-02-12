@@ -8,7 +8,7 @@ describe('ChoiseComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ AlexandriaChoiceComponent ]
+      imports: [ AlexandriaChoiceComponent ]
     });
     fixture = TestBed.createComponent(AlexandriaChoiceComponent);
     component = fixture.componentInstance;

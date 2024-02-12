@@ -5,12 +5,10 @@ import { AlexandriaTourComponent } from './alexandriaTour-page/alexandriaTour.co
 import { AlexandriaTourRoutingModule } from './alexandriaTour-routing.module';
 
 @NgModule({
-  declarations: [
-    AlexandriaTourComponent
-  ],
   imports: [
     CommonModule,
-    AlexandriaTourRoutingModule
+    AlexandriaTourRoutingModule,
+    AlexandriaTourComponent
   ]
 })
 export class AlexandriaTourModule { }

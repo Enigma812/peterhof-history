@@ -1,15 +1,18 @@
+import { AsyncPipe } from '@angular/common';
 import { Component, ChangeDetectionStrategy } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Observable, map, switchMap } from 'rxjs';
 import { DataService } from 'src/app/data.service';
 import { AlexandriaPlace } from 'src/app/models/alexandriaPlace';
 import { trackBy } from 'src/modules/utils/track-by';
 
 @Component({
+  standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'app-choice',
   templateUrl: './alexandriaChoice.component.html',
-  styleUrls: [ './alexandriaChoice.component.scss' ]
+  styleUrls: [ './alexandriaChoice.component.scss' ],
+  imports: [ RouterLink, AsyncPipe ]
 })
 export class AlexandriaChoiceComponent {
   public alexandriaPlace$: Observable<AlexandriaPlace | undefined>;

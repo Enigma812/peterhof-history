@@ -5,12 +5,10 @@ import { AlexandriaChoiceComponent } from './alexandriaChoice-page/alexandriaCho
 import { AlexandriaChoiceRoutingModule } from './alexandriaChoice-routing.module';
 
 @NgModule({
-  declarations: [
-    AlexandriaChoiceComponent
-  ],
   imports: [
     CommonModule,
-    AlexandriaChoiceRoutingModule
+    AlexandriaChoiceRoutingModule,
+    AlexandriaChoiceComponent
   ]
 })
 export class ChoiceModule { }

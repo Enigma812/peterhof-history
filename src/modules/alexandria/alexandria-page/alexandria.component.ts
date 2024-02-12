@@ -1,5 +1,6 @@
+import { AsyncPipe } from '@angular/common';
 import { Component, ChangeDetectionStrategy } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, RouterLink, RouterOutlet } from '@angular/router';
 import { Observable } from 'rxjs';
 import { DataService } from 'src/app/data.service';
 import { Alexandria } from 'src/app/models/alexandria';
@@ -7,10 +8,12 @@ import { AlexandriaPlace } from 'src/app/models/alexandriaPlace';
 import { trackBy } from 'src/modules/utils/track-by';
 
 @Component({
+  standalone: true,
   selector: 'app-alexandria',
   templateUrl: './alexandria.component.html',
   styleUrls: [ './alexandria.component.scss' ],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [ RouterLink, RouterOutlet, AsyncPipe ]
 })
 export class AlexandriaComponent {
   public alexandria$: Observable<Alexandria>;

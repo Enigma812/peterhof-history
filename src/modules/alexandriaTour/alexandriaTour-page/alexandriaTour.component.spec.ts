@@ -8,7 +8,7 @@ describe('AlexandriaTourComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ AlexandriaTourComponent ]
+      imports: [ AlexandriaTourComponent ]
     });
     fixture = TestBed.createComponent(AlexandriaTourComponent);
     component = fixture.componentInstance;
