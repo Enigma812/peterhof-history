@@ -6,11 +6,11 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    loadChildren: () => import('../modules/welcome/welcome.module').then((m) => m.WelcomeModule)
+    loadChildren: () => import('../modules/welcome/welcome.routes')
   },
   {
     path: 'alexandria',
-    loadChildren: () => import('../modules/alexandria/alexandria.module').then((m) => m.AlexandriaModule)
+    loadChildren: () => import('../modules/alexandria/alexandria.routes').then((m) => m.routes)
   }
 ];
 
